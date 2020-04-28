@@ -16,7 +16,7 @@ CREATE TABLE users (
 CREATE TABLE login (
     id serial PRIMARY KEY,
     hash VARCHAR(100) NOT NULL,
-    email text UIQUIE NOT NULL
+    email text UNIQUE NOT NULL
 );
 
 ```

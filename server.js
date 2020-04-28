@@ -8,13 +8,13 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
+const dbURL = process.env.DATABASE_URL || '127.0.0.1';
+
 const db = require('knex')({
   client: 'pg',
   connection: {
-    host: '127.0.0.1',
-    user: 'randyh',
-    password: 'wasWonwoah',
-    database: 'smartbrain',
+    host: dbURL,
+    ssl: true,
   },
 });
 
