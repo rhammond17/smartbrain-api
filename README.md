@@ -24,8 +24,12 @@ CREATE TABLE login (
 ## Heroku
 
 Deployed to Heroku as randyh-smartbrain-api:
+
 ```bash
 heroku login
 git push heroku master
 ```
 
+## Local
+
+To run the server locally, you need to set the API_KEY environmental variable to your Clarifai API key.

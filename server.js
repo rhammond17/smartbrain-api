@@ -9,7 +9,7 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
 // THIS IS INSECURE, NOT FOR PRODUCTION
-// Since we don't have an security cert, we need to shutoff
+// Since we don't have a security cert, we need to shutoff
 // TLS check.  This is a personal project and not for production,
 // so this is acceptable.
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;

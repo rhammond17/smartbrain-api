@@ -18,6 +18,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js"
+    "start:dev": "API_KEY='<insert API key here>' nodemon server.js"
   }
 }
