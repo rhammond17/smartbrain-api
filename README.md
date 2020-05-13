@@ -20,3 +20,12 @@ CREATE TABLE login (
 );
 
 ```
+
+## Heroku
+
+Deployed to Heroku as randyh-smartbrain-api:
+```bash
+heroku login
+git push heroku master
+```
+
