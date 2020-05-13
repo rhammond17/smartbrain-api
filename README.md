@@ -30,6 +30,13 @@ heroku login
 git push heroku master
 ```
 
+### Environmental Variables
+
+These are set in Heroku:
+
+- API_KEY - Clarifai API key
+- DATABASE_URL - URL for postgres DB
+
 ## Local
 
 To run the server locally, you need to set the API_KEY environmental variable to your Clarifai API key.
